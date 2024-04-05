@@ -7,3 +7,5 @@ geopy
 pandas
 openpyxl
 matplotlib
+geopy
+scikit-learn

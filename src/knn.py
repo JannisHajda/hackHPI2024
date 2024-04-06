@@ -8,7 +8,7 @@ def main():
     coordinates = np.array([[building['center']['lat'], building['center']['lon']] for building in buildings])
 
     # Choose the number of clusters (K)
-    num_clusters = 20
+    num_clusters = 50
 
     # Initialize KMeans clustering
     kmeans = KMeans(n_clusters=num_clusters)
